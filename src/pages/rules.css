@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .rules img{
@@ -12,3 +13,10 @@
     border-radius: 50px;
     width: 80%;
 }
+
+@media only screen and (max-width: 768px) {
+    .rules img {
+      overflow: hidden;
+      margin: 10px;
+    }
+  }
