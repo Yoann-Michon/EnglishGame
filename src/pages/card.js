@@ -24,9 +24,9 @@ const Card = () => {
                 
                 <div className="challenge card">
                     <h3>Challenges Cards</h3>
-                    <img src={challengeApple}   alt="exemples of a challenge card"/>
-                    <img src={challengeNike}   alt="exemples of a challenge card"/>
-                    <img src={challengeSamsung}   alt="exemples of a challenge card"/>
+                    <img src={challengeApple} className="chacard" alt="exemples of a challenge card"/>
+                    <img src={challengeNike} className="chacard" alt="exemples of a challenge card"/>
+                    <img src={challengeSamsung} className="chacard" alt="exemples of a challenge card"/>
                 </div>
                 
             </div>
