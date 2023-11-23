@@ -1,0 +1,43 @@
+.App-header{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+    color: #cb96ba;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 2px;
+  }
+  
+  a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px; 
+    background-color: bisque;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    text-decoration-thickness: 3px;
+  }
+  

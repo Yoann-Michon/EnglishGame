@@ -1,0 +1,42 @@
+.explanation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.explanation p{
+    font-size: 30px;
+    margin: 10px 0;
+    width: 77%;
+    padding: 10px;
+}
+
+.card img{
+    width: 450px;
+    border: 5px solid bisque;
+    border-radius: 40px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.card h3{
+    font-size: 30px;
+}
+
+.disclaimer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.disclaimer img{
+    width: 70px;
+}
+.left{
+    transform: rotateZ(-90deg);
+}
+.right{
+    transform: rotateZ(90deg);
+}

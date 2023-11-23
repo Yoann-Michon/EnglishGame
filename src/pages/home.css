@@ -1,0 +1,21 @@
+.home{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.flicker{
+        display: flex;
+        align-Items: center;
+        min-height: 105px;
+        width: 100%;
+        justify-Content: center;
+        font-Size: 80px;
+        font-weight: bold;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        color: #CB96BA;
+}

@@ -1,0 +1,14 @@
+.rules{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rules img{
+    margin: 10%;
+    padding: 10px;
+    border: 10px solid bisque;
+    border-radius: 50px;
+    width: 80%;
+}
