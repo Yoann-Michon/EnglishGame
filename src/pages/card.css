@@ -18,10 +18,15 @@
     border-radius: 40px;
     padding: 15px;
     margin: 10px;
+    transition: transform 2s;
 }
 
 .card h3{
     font-size: 30px;
+}
+
+.card .chacard:hover{
+    transform: rotateZ(180deg)
 }
 
 .disclaimer{
