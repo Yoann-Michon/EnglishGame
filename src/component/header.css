@@ -45,6 +45,10 @@ a {
  .App-header img{
     display: none;
   }
+
+  nav{
+    justify-content: space-between;
+  }
   
   a {
       font-size: 25px;
