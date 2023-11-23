@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const WordFlicker = () => {
-  const words = ['BRANDY FAMILY'];
+const Flicker = () => {
   const [part, setPart] = useState('');
   const [i, setI] = useState(0);
   const [offset, setOffset] = useState(0);
@@ -11,6 +10,8 @@ const WordFlicker = () => {
   const speed = 70;
 
   useEffect(() => {
+    const words = ['BRANDY FAMILY'];
+
     const interval = setInterval(() => {
       if (forwards) {
         if (offset >= words[i].length) {
@@ -37,9 +38,9 @@ const WordFlicker = () => {
     }, speed);
 
     return () => clearInterval(interval);
-  }, [forwards, i, offset, skipCount, words]);
+  }, [forwards, i, offset, skipCount]);
 
   return <div className="word">{part}</div>;
 };
 
-export default WordFlicker;
+export default Flicker;
