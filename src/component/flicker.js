@@ -10,7 +10,7 @@ const Flicker = () => {
   const speed = 70;
 
   useEffect(() => {
-    const words = ['Hi i like HTML', 'I also like css', 'Lorem ipsum dolor sit amet', 'consectetur adipiscing elit', 'sed do eiusmod tempor incididunt'];
+    const words = ['BRANDY FAMILY'];
 
     const interval = setInterval(() => {
       if (forwards) {
