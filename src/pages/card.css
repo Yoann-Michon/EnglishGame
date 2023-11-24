@@ -45,3 +45,11 @@
 .right{
     transform: rotateZ(90deg);
 }
+
+
+@media screen and (max-width:400px) {
+    .card img{
+        width: 90%;
+        padding: 0;
+    }
+}
