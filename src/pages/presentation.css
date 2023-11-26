@@ -6,7 +6,7 @@
     transform: translate(-50%,-50%);
 }
 
-@media (max-width:500px){
+@media (max-width:768px){
     iframe{
         width: 450px;
         height: 225px;
