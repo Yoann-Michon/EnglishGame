@@ -1,5 +1,5 @@
 import React from "react";
-import WordFlicker from "../component/flicker"
+import WordFlicker from "../component/flicker";
 import './home.css';
 import hat from '../images/hat.png';
  

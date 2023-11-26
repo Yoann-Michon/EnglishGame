@@ -1,8 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 *{
-  font-family: 'Lobster', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 .App {
   text-align: center;
+}
+
+.menu{
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .App-header{
+    display: none;
+  }
+  
+  .menu{
+    display: block;
+  }
 }
